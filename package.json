@@ -1,0 +1,28 @@
+{
+  "name": "ragnarookii",
+  "version": "0.0.0",
+  "description": "An Action RPG",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trongr/ragnarookii.git"
+  },
+  "author": "trong",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/trongr/ragnarookii/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "body-parser": "~1.15.2",
+    "express-session": "~1.14.0"
+  }
+}
